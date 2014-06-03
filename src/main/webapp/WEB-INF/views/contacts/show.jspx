@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_credera_roocontactssample_domain_Contact" object="${contact}" path="/contacts" z="Bh3SUnntmInYuYA2GkKeiImTXYw=">
+        <field:display field="name" id="s_com_credera_roocontactssample_domain_Contact_name" object="${contact}" z="3dhFnKgAyZR4Ao/qO3DD8KA2Vzk="/>
+        <field:display field="address" id="s_com_credera_roocontactssample_domain_Contact_address" object="${contact}" z="d/ZRriZhxDzbE8NQDCYHosldX8A="/>
+        <field:display field="phone" id="s_com_credera_roocontactssample_domain_Contact_phone" object="${contact}" z="XCaKYszXcu3V1J1sfje9mf1nWM4="/>
+    </page:show>
+</div>
